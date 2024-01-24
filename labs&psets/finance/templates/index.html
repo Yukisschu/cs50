@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+   Bought!
+{% endblock %}
+
+{% block main %}
+    <div class="section">
+        <h2>All Shares</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Shares</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in results %}
+                    {% if row["shares"] != 0 %}
+                    <tr>
+                            <td>{{ row["symbol"] }}</td>
+                            <td>{{ row["shares"] }}</td>
+                            <td>{{ prices[row["symbol"]] | usd }}</td>
+                            <td>{{ totals[row["symbol"]] | usd }}</td>
+                    </tr>
+                    {% endif %}
+                {% endfor %}
+                <tr>
+                    <td class="border-0 fw-bold text-end" colspan="3">Cash</td>
+                    <td>{{ cash | usd }}</td>
+                </tr>
+
+                <tr>
+                    <td class="border-0 fw-bold text-end" colspan="3">Total</td>
+                    <td>{{ TOTAL | usd }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

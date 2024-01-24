@@ -1,0 +1,12 @@
+sort1 uses: bubble sort
+
+How do you know?: The worst-case sorting time (n^2) is significantly greater than the best-case time (n), while the other two algorithms exhibit similar performance for each case.
+
+sort2 uses: merge sort
+
+How do you know?: the sorting time is much shorter (n log n) compared to sort 3 (n^2).
+
+sort3 uses: selection sort
+
+How do you know?: the sorting time is much longer (n^2) compared to sort 2 (n log n).
+
