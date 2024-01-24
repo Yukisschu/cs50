@@ -11,8 +11,8 @@ Unencrypted text is generally called _plaintext_. Encrypted text is generally ca
 
 Caesar's algorithm encrypts messages by "rotating" each letter by _k_ positions. The encryption formula is given by:
 
- {{< katex >}}\\( \(c_i = (p_i + k) \bmod 26\) \\).
+C<sup>i</sup>  = (P<sup>i</sup>  + k) % 26
 
-where %26 means remainder when dividing by 26.
+where `% 26` means remainder when dividing by 26.
 
 

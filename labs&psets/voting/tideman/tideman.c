@@ -244,43 +244,43 @@
 // //                 break;
 // //             }
 // //         }
-// //         if (flag != 1)
-// //         {
-// //             locked[pairs[n].winner][pairs[n].loser] = true;
+//         if (flag != 1)
+//         {
+//             locked[pairs[n].winner][pairs[n].loser] = true;
 
-// //             NEW[j].winner = pairs[n].winner;
-// //             NEW[j].loser = pairs[n].loser;
-// //             int achor = j;
-// //             j++;
+//             NEW[j].winner = pairs[n].winner;
+//             NEW[j].loser = pairs[n].loser;
+//             int achor = j;
+//             j++;
 
-// //             for (int m = achor; m < j; m++)
-// //             {
-// //                 for (int k = 0; k < achor; k++)
-// //                 {
-// //                     if (NEW[m].winner == NEW[k].loser)
-// //                     {
-// //                         for (int a = 0; a < achor; a++)
-// //                         {
-// //                             if (NEW[a].winner == NEW[k].winner && NEW[a].loser == NEW[m].loser)
-// //                             {
-// //                                 flag = 1;
-// //                                 break;
-// //                             }
-// //                         }
-// //                         if (flag != 1)
-// //                         {
-// //                             NEW[j].winner = NEW[k].winner;
-// //                             NEW[j].loser = NEW[m].loser;
-// //                             j++;
-// //                             flag = 0;
-// //                         }
-// //                     }
-// //                 }
-// //             }
-// //         }
-// //     }
-// //     return;
-// // }
+//             for (int m = achor; m < j; m++)
+//             {
+//                 for (int k = 0; k < achor; k++)
+//                 {
+//                     if (NEW[m].winner == NEW[k].loser)
+//                     {
+//                         for (int a = 0; a < achor; a++)
+//                         {
+//                             if (NEW[a].winner == NEW[k].winner && NEW[a].loser == NEW[m].loser)
+//                             {
+//                                 flag = 1;
+//                                 break;
+//                             }
+//                         }
+//                         if (flag != 1)
+//                         {
+//                             NEW[j].winner = NEW[k].winner;
+//                             NEW[j].loser = NEW[m].loser;
+//                             j++;
+//                             flag = 0;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+//     return;
+// }
 
 // // void lock_pairs(void)
 // // {

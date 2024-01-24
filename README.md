@@ -2,7 +2,7 @@
 
 ---
 
-This repository includes all my solutions to labs, problem sets, course materials, and notes.
+This repository includes my solutions to labs, problem sets (with a summarized program background and demo when necessary to provide a quick introduction), course materials, and notes.
 
 [Course Website](https://cs50.harvard.edu/x/2024/)
 
