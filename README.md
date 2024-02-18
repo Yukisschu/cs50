@@ -7,3 +7,6 @@ This repository includes my solutions to labs, problem sets (with a summarized p
 ### Extended Discussions
 
 Explore [this repository](https://github.com/Yukisschu/tideman_algorithm) for in-depth discussions related to this course.
+
+### DISCLAIMER
+This repository is for documentation and discussion only, please do not copy the solutions directly.
